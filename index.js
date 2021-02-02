@@ -45,7 +45,7 @@ class SortedList {
     
     let minNum = this.items[0];
 
-    for(let i=1; i<this.length; i++) {
+    for(let i=0; i<this.length; i++) {
       if(minNum >= this.items[i]) {
         minNum = this.items[i]
       } 
